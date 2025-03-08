@@ -24,7 +24,7 @@ Check out the live website: [World of Starknight](https://your-site-url.com) <!-
 
 ![Home Page](![image](https://github.com/user-attachments/assets/d438bb95-9623-4b10-9c30-6d985e0b0e1e/600x400)) <!-- Replace with your screenshot URL -->
 ![Updates Page](![image](https://github.com/user-attachments/assets/99bc0ae1-981a-4835-b10b-e78585573e3e/600x400)) <!-- Replace with your screenshot URL -->
-![Meet the Team Page](![image](https://github.com/user-attachments/assets/6fd7565e-7ad6-47e1-906a-b2e8a4f3c919/600x400)) <!-- Replace with your screenshot URL -->
+![MeetTheTeamPage](https://github.com/user-attachments/assets/a5290704-bf98-420a-938e-1e3c5cb9ca1e/600x400)
 
 ---
 
