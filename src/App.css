@@ -1,38 +1,156 @@
-.App {
+/* App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+  transition: all 0.3s ease;
+  padding: 1rem 0;
+  background-color: transparent !important;
+  /* Transparent by default */
+}
+
+.navbar-custom.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  /* Dark background when scrolled */
+  padding: 0.5rem 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow */
+}
+
+.navbar-brand-custom {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand-custom:hover {
+  color: #61dafb !important;
+  /* Highlight color on hover */
+}
+
+.nav-link-custom {
+  color: #fff !important;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #61dafb;
+  /* Highlight color */
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #61dafb !important;
+  /* Highlight color on hover */
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+  /* Animated underline on hover */
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay for better text visibility */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Card Styles */
+.clickable-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.clickable-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.App-header {
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 4rem;
   background-color: #282c34;
-  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: #61dafb;
+  /* Highlight color for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+  /* White color on hover */
+}
+
+/* Back-to-Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 1.2rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.back-to-top:hover {
+  background-color: #61dafb;
+  /* Highlight color on hover */
+  transform: scale(1.1);
+  /* Slightly enlarge on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hero Section Text Styling */
+.hero-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  /* Text shadow for h1 */
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  /* Text shadow for p */
 }
