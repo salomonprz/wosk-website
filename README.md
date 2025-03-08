@@ -1,34 +1,50 @@
-# Getting Started with Create React App
+# World of Starknight
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official website for the **World of Starknight** Minecraft server! This website provides information about the server, updates, and the team behind it.
 
-## Available Scripts
+![World of Starknight Logo](https://via.placeholder.com/150) <!-- Replace with your logo URL -->
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home Page**: Learn about the server and its features.
+- **Updates Page**: Stay informed about the latest server updates.
+- **Meet the Team**: Get to know the talented individuals behind the server.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Check out the live website: [World of Starknight](https://your-site-url.com) <!-- Replace with your live URL -->
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Home Page](https://via.placeholder.com/600x400) <!-- Replace with your screenshot URL -->
+![Updates Page](https://via.placeholder.com/600x400) <!-- Replace with your screenshot URL -->
+![Meet the Team Page](https://via.placeholder.com/600x400) <!-- Replace with your screenshot URL -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
+## Technologies Used
+
+- **Frontend**: React, React Bootstrap
+- **Styling**: CSS, Bootstrap
+- **Routing**: React Router
+- **Icons**: Font Awesome
+- **Hosting**: [Netlify/Vercel/GitHub Pages] <!-- Replace with your hosting provider -->
+
+---
+
+## How to Run Locally
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/wosk-website.git
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
