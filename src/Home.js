@@ -17,7 +17,7 @@ const Home = () => {
     const [showBackToTop, setShowBackToTop] = useState(false);
     const [navbarScrolled, setNavbarScrolled] = useState(false);
     const navigate = useNavigate(); // Initialize useNavigate
-
+    
     // Smooth scrolling for anchor links
     useEffect(() => {
         const handleSmoothScroll = (e) => {
