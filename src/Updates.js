@@ -35,8 +35,8 @@ const Updates = () => {
       description: "We’re excited to announce the official launch of the World of Starknight Wiki!",
     },
     {
-      title: "WOSK has been updated to version 1.21.4",
-      date: 'October 5, 2023',
+      title: "WOSK has been updated to version 1.21.4!",
+      date: 'January 18, 2025',
       description: "We have optimized server performance to reduce lag and improve your gaming experience.",
     },
     {
